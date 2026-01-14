@@ -1,5 +1,5 @@
 * {
-  font-family: Roboto, Arial, sans-serif;
+  font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
 }
@@ -63,3 +63,16 @@ a {
 a:hover {
   text-decoration: underline;
 }
+
+.logout-btn {
+  width: auto;
+  padding: 8px 20px;
+  display: block;
+  margin: 20px auto 0;
+  background-color: #e74c3c;
+}
+
+.logout-btn:hover {
+  background-color: #c0392b;
+}
+
