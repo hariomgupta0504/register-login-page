@@ -1,9 +1,8 @@
-// login.js
+
 
 let loginInput = document.getElementById("loginInput");
 let loginPassword = document.getElementById("loginPassword");
 
-// autofill from signup
 let prefill = localStorage.getItem("loginPrefill");
 if (prefill) {
     loginInput.value = prefill;

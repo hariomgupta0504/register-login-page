@@ -76,3 +76,51 @@ a:hover {
   background-color: #c0392b;
 }
 
+.profile-box {
+  background-color: #ffffff;
+  width: 380px;
+  margin: 25px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.profile-box h3 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.info-box {
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+  padding: 10px 12px;
+  margin-bottom: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fafafa;
+}
+
+.label {
+  font-weight: bold;
+  color: #333;
+}
+
+.info-box span:last-child {
+  color: #555;
+  max-width: 250px;
+  text-align: right;
+}
+
+.logout-btn {
+  display: block;
+  width: auto;
+  margin: 20px auto 0;
+  padding: 8px 20px;
+  background-color: #e74c3c;
+}
+
+.logout-btn:hover {
+  background-color: #c0392b;
+}

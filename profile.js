@@ -1,4 +1,4 @@
-// profile.js
+
 
 let loggedIn = localStorage.getItem("loggedIn");
 if (!loggedIn) {
